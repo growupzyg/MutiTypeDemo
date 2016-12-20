@@ -12,9 +12,14 @@
         android:layout_height="wrap_content"
         android:text="一般方式处理RecyclerView"/>
     <Button
-        android:id="@+id/btn_mutitypeway"
+        android:id="@+id/btn_multitype1way"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MutiType方式处理RecyclerView"/>
+        android:text="MultiType方式处理RecyclerView（嵌套Item）"/>
+    <Button
+        android:id="@+id/btn_multitype2way"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MultiType方式处理RecyclerView（顺序添加）"/>
 
 </LinearLayout>

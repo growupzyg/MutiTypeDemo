@@ -1,8 +1,6 @@
 package com.example.testing.mutitypedemo.adapter;
 
 import android.content.Context;
-import android.graphics.Canvas;
-import android.graphics.Rect;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -36,7 +34,7 @@ public class MessageListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         context = parent.getContext();
         if (viewType == ARTICLE_TYPE) {
-            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_article_message, parent, false);
+            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_article_message1, parent, false);
             return new ArticleViewHolder(view);
         } else if (viewType == PUSH_TYPE) {
             View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_push_message, parent, false);

@@ -17,9 +17,10 @@
         </activity>
         <activity android:name=".GeneralWayActivity">
         </activity>
-        <activity android:name=".MutiTypeActivity">
+        <activity android:name=".MultiType1Activity">
         </activity>
-
+        <activity android:name=".MultiType2Activity">
+        </activity>
     </application>
 
 </manifest>

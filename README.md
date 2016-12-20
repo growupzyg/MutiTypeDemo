@@ -1,3 +1,3 @@
-#MutiType Demo
+#MultiType Demo
 
-> 使用[MutiType](https://github.com/drakeet/Effective-MultiType)库进行Demo测试。
+> 使用[MultiType](https://github.com/drakeet/Effective-MultiType)库进行Demo测试。
