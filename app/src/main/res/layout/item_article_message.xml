@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#eee"
+              android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/text_sendtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/darker_gray"
+            android:padding="2dp"
+            android:text="12月17日 早上09:15"
+            android:textColor="@android:color/white"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/text_article_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="您有一条新消息"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/text_datetime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="12月17日"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:id="@+id/text_article_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="尊敬的客户：我们已往您的账户汇入100万人民币，请您尽快访问www.woshipianzi.com进行查收，\n账号：youarefoolish 密码：123456"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
